@@ -162,5 +162,79 @@
     list-style: none;
     font-size: 0.95rem;
   }
+
+
+
+
+
+  /* ───────────────────────────────
+     🔴 Pistons PAGE STYLING
+─────────────────────────────── */
+
+/* Pistons-specific page wrapper */
+.pistons-page .header-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pistons-page .team-page-logo {
+    width: 140px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #00bcd4);
+  }
+  
+  .pistons-page .team-page-title {
+    font-size: 2.5rem;
+    color: #00bcd4;
+    margin-top: 10px;
+    text-shadow: 0 0 8px #00bcd4;
+  }
+  
+  .pistons-page .roster-and-games {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+  
+  .pistons-page .roster-section,
+  .pistons-page .games-section {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.3);
+    text-align: left;
+  }
+  
+  .pistons-page .roster-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #e0f7ff;
+    font-size: 0.95rem;
+  }
+  
+  .pistons-page .roster-table th,
+  .pistons-page .roster-table td {
+    border: 1px solid #00bcd4;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .pistons-page .roster-table th {
+    background-color: rgba(0, 188, 212, 0.1);
+    color: #00e5ff;
+    text-shadow: 0 0 2px #00bcd4;
+  }
+  
+  .pistons-page #upcoming-games li {
+    padding: 10px 0;
+    border-bottom: 1px solid #00bcd4;
+    list-style: none;
+    font-size: 0.95rem;
+  }
+  
   
   
