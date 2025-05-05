@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detroit Tigers</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="tigers-page"> <!-- This wrapper scopes all lions styles -->
+
+    <div class="container">
+      
+      <!-- Header: Logo + Title -->
+      <div class="header-section">
+        <img src="tigersLogo.png" class="team-page-logo" alt="tigers Logo">
+        <h1 class="team-page-title">Detroit Tigers</h1>
+      </div>
+
+      <!-- Content: Roster + Upcoming Games -->
+      <div class="roster-and-games">
+        
+        <!-- Left: Roster -->
+        <div class="roster-section">
+          <h2>Roster</h2>
+          <table class="roster-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Position</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody id="roster-body">
+              <tr>
+                <td>--</td>
+                <td>Loading...</td>
+                <td>--</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Right: Upcoming Games -->
+        <div class="games-section">
+          <h2>Upcoming Games</h2>
+          <ul id="upcoming-games">
+            <li>Loading...</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

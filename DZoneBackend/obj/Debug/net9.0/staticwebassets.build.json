@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FFrMiV1EgU09+JY3lONOkvVc2MiUchcIzB/XY7DdO9o=",
+  "Source": "DZoneBackend",
+  "BasePath": "_content/DZoneBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
